@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BAZI by Arng — อ่านดวงปาจื้อแบบเจาะลึก เพื่อชีวิตที่คุณเลือกได้</title>
+<meta name="description" content="ปาจื้อ (八字) ศาสตร์ดูดวงจีนอายุกว่า 5,000 ปี ไม่ใช่การเดา แต่คือการคำนวณเพื่อวางแผนชีวิตและธุรกิจ จองคิวดูดวงปาจื้อแบบเจาะลึกรายบุคคล">
+
+<!-- ============================================================
+     SEO · สำคัญ: แก้ https://bazibyarng.com ทุกที่ให้เป็นโดเมนจริงของคุณ
+     (ในไฟล์นี้ + sitemap.xml + robots.txt) เมื่อ publish แล้ว
+     ============================================================ -->
+<link rel="canonical" href="https://bazibyarng.com/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="BAZI by Arng">
+<meta name="theme-color" content="#c8a24a">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<!-- Open Graph (Facebook / LINE) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BAZI by Arng">
+<meta property="og:locale" content="th_TH">
+<meta property="og:title" content="BAZI by Arng — อ่านดวงปาจื้อแบบเจาะลึก เพื่อชีวิตที่คุณเลือกได้">
+<meta property="og:description" content="ปาจื้อ (八字) ศาสตร์ดูดวงจีนอายุกว่า 5,000 ปี ไม่ใช่การเดา แต่คือการคำนวณเพื่อวางแผนชีวิตและธุรกิจ">
+<meta property="og:url" content="https://bazibyarng.com/">
+<meta property="og:image" content="https://bazibyarng.com/img/report-desk.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="900">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BAZI by Arng — อ่านดวงปาจื้อแบบเจาะลึก">
+<meta name="twitter:description" content="ศาสตร์ดูดวงจีน 5,000 ปี ไม่ใช่การเดา แต่ใช้วางแผนชีวิตและธุรกิจ">
+<meta name="twitter:image" content="https://bazibyarng.com/img/report-desk.jpg">
+
+<!-- Structured data: บริการ + ราคา -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "การดูดวงปาจื้อ (BaZi) รายบุคคล",
+  "name": "BAZI by Arng — ดูดวงปาจื้อ",
+  "description": "ดูดวงปาจื้อ (八字) แบบเจาะลึกรายบุคคล วิเคราะห์ผัง 4 เสา ธาตุ ดวงดาว และรอบโชค เพื่อวางแผนการเงิน ธุรกิจ ความรัก และสุขภาพ",
+  "url": "https://bazibyarng.com/",
+  "image": "https://bazibyarng.com/img/report-desk.jpg",
+  "areaServed": "TH",
+  "provider": {
+    "@type": "Organization",
+    "name": "BAZI by Arng",
+    "url": "https://bazibyarng.com/",
+    "sameAs": ["https://facebook.com/wearyoure99"]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "4500",
+    "priceCurrency": "THB",
+    "url": "https://bazibyarng.com/#booking",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
+<!-- Structured data: FAQ (มีสิทธิ์ขึ้น rich result ใน Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"ปาจื้อต่างจากดูดวงทั่วไปยังไง?","acceptedAnswer":{"@type":"Answer","text":"ปาจื้อไม่ใช่การทำนายว่าจะเกิดอะไร แต่เป็นการคำนวณสมดุลธาตุจากวันเวลาเกิด เพื่อให้รู้จุดแข็ง จุดที่ต้องระวัง และจังหวะเวลาที่เหมาะกับการลงมือ เป็นเครื่องมือวางแผนชีวิต ไม่ใช่การเดา"}},
+    {"@type":"Question","name":"ในเมื่อขึ้นดวงฟรีในเว็บหรือถาม AI ก็ได้ ทำไมต้องจ่าย?","acceptedAnswer":{"@type":"Answer","text":"การขึ้นผังเครื่องทำได้ แต่การตีความต้องอ่านปฏิสัมพันธ์ของธาตุทั้งผังที่ส่งผลกันเป็นชั้น บวกกับดวงรายปีที่เปลี่ยนทุกปี แล้วปรับให้เข้ากับชีวิตจริงของคุณ AI ตอบได้แค่แพตเทิร์นกว้าง บอกไม่ได้ว่าคุณคนนี้ ปีนี้ ควรทำอะไร นั่นคือสิ่งที่ต้องใช้ประสบการณ์ของซินแส"}},
+    {"@type":"Question","name":"ถ้าไม่รู้เวลาเกิดที่แน่นอน ดูได้ไหม?","acceptedAnswer":{"@type":"Answer","text":"ได้ เวลาเกิดช่วยให้ผังละเอียดขึ้น แต่ถ้าไม่ทราบ ซินแสจะใช้วิธีประเมินจากเหตุการณ์สำคัญในชีวิตเพื่อเทียบเคียง แจ้งได้เลยตอนจองคิว"}},
+    {"@type":"Question","name":"ข้อมูลวันเกิดของฉันปลอดภัยไหม?","acceptedAnswer":{"@type":"Answer","text":"ข้อมูลวันเวลาเกิดถือเป็นข้อมูลส่วนบุคคล เราเก็บและใช้เพื่อการวิเคราะห์ปาจื้อเท่านั้น และจะไม่เปิดเผยต่อบุคคลที่สาม"}},
+    {"@type":"Question","name":"สินค้าเสริมดวงจำเป็นต้องซื้อไหม?","acceptedAnswer":{"@type":"Answer","text":"ไม่จำเป็น เป็นทางเลือกเสริมสำหรับผู้ที่อยากเติมธาตุที่ขาด รายงานปาจื้อให้แนวทางครบอยู่แล้ว สินค้าเป็นของประกอบความเชื่อ ไม่ได้รับประกันผลลัพธ์"}}
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Great+Vibes&family=Noto+Serif+Thai:wght@500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* ลุค Luxury สว่าง (BAZI by Arng): ครีม-งาช้าง / ทองอ่อน / น้ำตาลเอสเพรสโซ่เป็นตัวอักษร
+     ตรงธาตุที่เกื้อหนุน: ดิน (เบจ/ครีม) + โลหะ (ทอง/งาช้าง) เลี่ยงโทนน้ำ/ไม้ (ดำสนิท น้ำเงิน เขียว) */
+  --ink:#2f1d10; --ink-soft:#573a26;
+  --gold:#c8a24a; --gold-2:#dcc074; --gold-soft:#ece0bf; --gold-deep:#a07b2c;
+  --red:#b0472e; --red-soft:#ca6440;
+  --cream:#f7f1e6; --cream-2:#efe6d4; --ivory:#fdfbf5; --sand:#efe7d6; --champ:#ecdfc2; --line:#e7dcc2;
+  --text:#4a3826; --text-soft:#8a7862;
+  --radius:18px; --shadow:0 20px 50px -24px rgba(120,90,40,.28);
+  --maxw:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Noto Sans Thai',sans-serif;color:var(--text);background:var(--cream);line-height:1.65;font-weight:400;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.serif{font-family:'Noto Sans Thai',serif}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+section{padding:82px 0}
+.eyebrow{display:inline-block;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-deep);font-weight:600;margin-bottom:14px}
+.sec-title{font-size:clamp(26px,4vw,40px);line-height:1.25;color:var(--ink);font-weight:700;margin-bottom:16px}
+.sec-sub{font-size:17px;color:var(--text-soft);max-width:640px}
+.center{text-align:center}.center .sec-sub{margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:'Noto Sans Thai';font-weight:600;font-size:16px;padding:15px 30px;border-radius:999px;border:none;cursor:pointer;transition:.25s;line-height:1}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:#2a1e05;box-shadow:0 10px 24px -10px rgba(200,162,74,.8)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 30px -10px rgba(200,162,74,.9)}
+.btn-ghost{background:transparent;border:1.5px solid var(--gold);color:var(--gold-deep)}
+.btn-ghost:hover{background:rgba(200,162,74,.12)}
+.btn-red{background:linear-gradient(135deg,var(--red),var(--red-soft));color:#fff;box-shadow:0 10px 24px -10px rgba(158,47,44,.7)}
+.btn-red:hover{transform:translateY(-2px)}
+.placeholder-note{display:inline-block;font-size:12px;color:#b98b2a;background:#fbf3dc;border:1px dashed var(--gold);padding:2px 9px;border-radius:6px;margin:4px 0;font-weight:500}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:50;background:rgba(249,244,236,.9);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,162,74,.3)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:baseline;gap:8px;color:var(--ink)}
+.logo .brand{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:26px;letter-spacing:3px}
+.logo .by{font-family:'Great Vibes',cursive;font-size:22px;color:var(--gold-deep);line-height:1}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{color:var(--text);font-size:15px;font-weight:500;transition:.2s}
+.nav-links a:hover{color:var(--gold-deep)}
+.nav .btn{padding:11px 22px;font-size:15px}
+.burger{display:none;background:none;border:none;color:var(--ink);font-size:26px;cursor:pointer}
+@media(max-width:860px){.nav-links{display:none}.burger{display:block}}
+
+/* HERO */
+.hero{background:radial-gradient(1100px 620px at 78% -10%,#fdf8ef 0%,#f3e8d4 60%,#ecdfc6 100%);color:var(--ink);padding:70px 0 90px;position:relative;overflow:hidden}
+.hero::before{content:"八字";position:absolute;right:-40px;top:20px;font-family:'Noto Sans Thai';font-size:280px;color:rgba(160,123,44,.10);font-weight:700;pointer-events:none;line-height:1}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;position:relative}
+.hero h1{font-size:clamp(30px,4.4vw,50px);line-height:1.22;margin-bottom:20px}
+.hero h1 .hl{color:var(--gold-deep)}
+.hero p.lead{font-size:18px;color:var(--text);margin-bottom:30px;max-width:520px}
+.hero .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.hero .trust{font-size:14px;color:var(--text-soft);display:flex;gap:18px;flex-wrap:wrap}
+.hero .trust b{color:var(--gold-deep)}
+.video-frame{background:var(--ivory);border:1px solid rgba(200,162,74,.5);border-radius:var(--radius);padding:10px;box-shadow:var(--shadow)}
+.video-embed{position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;background:#000}
+.video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.ytthumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;cursor:pointer}
+.ytplay{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:78px;height:78px;border-radius:50%;border:none;background:rgba(176,71,46,.94);color:#fff;font-size:26px;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:.2s;padding-left:5px}
+.ytplay:hover{transform:translate(-50%,-50%) scale(1.09);background:var(--red)}
+.ytlink{position:absolute;bottom:11px;right:12px;background:rgba(30,18,10,.6);color:#fff;font-size:12px;padding:5px 11px;border-radius:999px;backdrop-filter:blur(3px)}
+.ytlink:hover{background:var(--red)}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:30px}.hero::before{font-size:180px}}
+
+/* strip */
+.strip{background:var(--champ);color:var(--ink);padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip .wrap{display:flex;gap:12px 36px;justify-content:center;flex-wrap:wrap;font-size:14.5px}
+.strip span{display:inline-flex;align-items:baseline;gap:7px}.strip b{color:var(--gold-deep);font-weight:600}
+
+/* generic cards */
+.grid{display:grid;gap:22px}
+.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.g2,.g3,.g4{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card .ic{width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,var(--gold-soft),#fff);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:16px;border:1px solid var(--line)}
+.card h3{font-size:19px;color:var(--ink);margin-bottom:8px}
+.card p{font-size:15px;color:var(--text-soft)}
+.story{display:grid;gap:20px;margin:26px 0 42px}
+.story-card{background:var(--ivory);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:16px;padding:28px 30px;box-shadow:var(--shadow)}
+.story-card .st-tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:1px;color:var(--gold-deep);text-transform:uppercase;margin-bottom:8px}
+.story-card h3{font-size:21px;color:var(--ink);margin-bottom:12px}
+.story-card p{font-size:15.5px;color:var(--text);line-height:1.9;margin-bottom:14px}
+.story-card .climax{background:#fbf3dc;border-radius:10px;padding:14px 18px;font-size:14.5px;color:#7a5c1a;line-height:1.8}
+.works-sub{text-align:center;font-size:20px;color:var(--ink);font-weight:600;margin:10px 0 20px}
+
+/* about split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+@media(max-width:860px){.split{grid-template-columns:1fr;gap:30px}}
+.pillar-panel{background:var(--ivory);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--shadow)}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.pillar{background:linear-gradient(160deg,#3a2617,#241610);border:1px solid rgba(200,162,74,.35);border-radius:14px;padding:26px 8px;text-align:center;color:var(--cream)}
+.pillar .zh{font-size:40px;color:var(--gold);line-height:1.1}
+.pillar .en{font-size:12px;color:#a99c86;margin-top:6px}
+.pillar small{display:block;font-size:11px;color:#7d7061;margin-top:2px}
+.checklist{list-style:none;display:grid;gap:18px;margin-top:22px}
+.checklist li{display:flex;gap:14px;font-size:16.5px;line-height:1.75;align-items:flex-start;color:var(--text)}
+.checklist li::before{content:"✦";color:var(--gold-deep);font-size:16px;margin-top:4px;flex:none}
+
+/* value stack */
+.value-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
+@media(max-width:860px){.value-cards{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.value-cards{grid-template-columns:1fr}}
+.v-card{position:relative;overflow:hidden;background:linear-gradient(180deg,var(--ivory),#fff);border:1px solid var(--line);border-radius:18px;padding:28px 24px 24px;box-shadow:var(--shadow);transition:.22s}
+.v-card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-2))}
+.v-card:hover{transform:translateY(-4px);border-color:var(--gold)}
+.v-card .v-chip{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-deep);margin-bottom:10px}
+.v-card h4{font-size:16.5px;color:var(--ink);font-weight:600;line-height:1.45;margin-bottom:9px}
+.v-card p{font-size:14px;color:var(--text-soft);line-height:1.75}
+.tag-el{font-size:12px;font-weight:600;color:var(--red)}
+
+/* why / AI */
+.why{background:linear-gradient(160deg,var(--sand),var(--cream))}
+.why .sec-title{color:var(--ink)}.why .sec-sub{color:var(--text-soft)}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:34px}
+@media(max-width:720px){.compare{grid-template-columns:1fr}}
+.comp{border-radius:var(--radius);padding:28px}
+.comp.free{background:var(--ivory);border:1px solid var(--line)}
+.comp.pro{background:linear-gradient(160deg,#fdf6e6,#f6ecd2);border:1.5px solid var(--gold)}
+.comp h3{font-size:20px;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.comp.free h3{color:var(--text-soft)}.comp.pro h3{color:var(--gold-deep)}
+.comp ul{list-style:none;display:grid;gap:14px}
+.comp li{font-size:15px;line-height:1.6;color:var(--text);display:flex;gap:10px;align-items:flex-start}
+.comp.free li::before{content:"✕";color:var(--red-soft)}
+.comp.pro li::before{content:"✓";color:var(--gold-deep)}
+
+/* process */
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:20px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;position:relative}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:-18px;left:26px;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-2));color:#2a1e05;font-family:'Noto Sans Thai';font-weight:700;font-size:20px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px -8px rgba(200,162,74,.9)}
+.step h3{margin:14px 0 8px;color:var(--ink);font-size:19px}
+.step p{font-size:15px;color:var(--text-soft)}
+
+/* reader */
+.reader{background:linear-gradient(160deg,var(--cream-2),var(--cream))}
+.reader-card{display:grid;grid-template-columns:230px 1fr;gap:36px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:24px;padding:34px;box-shadow:var(--shadow)}
+@media(max-width:680px){.reader-card{grid-template-columns:1fr;text-align:center}}
+.reader-photo{aspect-ratio:1;border-radius:20px;background:linear-gradient(135deg,#241c12,#0d0b09);display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gold);gap:8px;border:1px solid rgba(200,162,74,.3);font-size:13px;text-align:center;padding:14px}
+.reader-photo .zh{font-size:44px;font-family:'Noto Sans Thai'}
+.reader-card h3{font-size:24px;color:var(--ink);margin-bottom:6px}
+.reader-card .role{color:var(--red);font-weight:600;font-size:15px;margin-bottom:14px}
+.stat-row{display:flex;gap:26px;flex-wrap:wrap;margin-top:16px}
+.stat b{font-family:'Noto Sans Thai';font-size:26px;color:var(--gold);display:block}
+.stat span{font-size:13px;color:var(--text-soft)}
+
+/* products */
+.disclosure{background:#fbf3dc;border:1px solid var(--gold);border-radius:12px;padding:12px 16px;font-size:13.5px;color:#7a5c1a;margin-bottom:26px;display:flex;gap:10px;align-items:flex-start}
+.prod{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.25s;display:flex;flex-direction:column}
+.prod:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.prod .img{aspect-ratio:1;background:linear-gradient(135deg,var(--cream-2),#fff);display:flex;align-items:center;justify-content:center;color:#c0ab7d;font-size:13px;text-align:center;position:relative;border-bottom:1px solid var(--line)}
+.prod .el-badge{position:absolute;top:10px;left:10px;font-size:11px;font-weight:600;color:#fff;background:var(--red);padding:3px 10px;border-radius:999px}
+.prod .body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.prod h3{font-size:16px;color:var(--ink)}
+.prod .price{color:var(--red);font-weight:600;font-size:15px}
+.prod p{font-size:13.5px;color:var(--text-soft);flex:1}
+.prod .btn{margin-top:6px;padding:11px 16px;font-size:14px;justify-content:center}
+
+/* reviews */
+.reviews{background:linear-gradient(160deg,var(--champ),var(--cream))}
+.reviews .sec-title{color:var(--ink)}
+.rev{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.rev .stars{color:var(--gold-deep);font-size:16px;letter-spacing:2px;margin-bottom:12px}
+.rev p{font-size:15.5px;color:var(--text);font-style:italic;margin-bottom:16px}
+.rev .who{display:flex;align-items:center;gap:12px}
+.rev .av{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-2));display:flex;align-items:center;justify-content:center;color:#2a1e05;font-weight:700}
+.rev .who b{color:var(--ink);font-size:15px;display:block}
+.rev .who span{font-size:13px;color:var(--text-soft)}
+
+/* booking */
+.booking{background:linear-gradient(160deg,var(--cream-2),var(--cream))}
+.book-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+@media(max-width:860px){.book-grid{grid-template-columns:1fr;gap:28px}}
+.book-info .price-box{background:linear-gradient(160deg,#241c12,#120f0c);color:var(--cream);border-radius:20px;padding:30px;border:1px solid rgba(200,162,74,.35)}
+.price-box .amt{font-family:'Noto Sans Thai';font-size:46px;color:var(--gold);line-height:1}
+.price-box .amt small{font-size:18px;color:#c3b8a5}
+.price-box .per{color:#a99c86;font-size:14px;margin:8px 0 18px}
+.price-box ul{list-style:none;display:grid;gap:10px}
+.price-box li{font-size:14.5px;color:#ddd2bf;display:flex;gap:10px}
+.price-box li::before{content:"✦";color:var(--gold)}
+.book-cta{background:var(--ivory);border:1px solid var(--line);border-radius:20px;padding:34px;box-shadow:var(--shadow)}
+.book-cta h3{font-family:'Noto Sans Thai';font-size:22px;color:var(--ink);margin-bottom:10px}
+.book-cta>p{color:var(--text-soft);font-size:15.5px;margin-bottom:20px}
+.book-steps{list-style:none;counter-reset:b;display:grid;gap:14px;margin-bottom:26px}
+.book-steps li{counter-increment:b;display:flex;gap:12px;font-size:15px;color:var(--text);align-items:flex-start}
+.book-steps li::before{content:counter(b);width:28px;height:28px;flex:none;border-radius:50%;background:var(--champ);color:var(--gold-deep);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:14px}
+.btn.big{width:100%;justify-content:center;font-size:17px;padding:16px}
+.scarcity{display:inline-flex;align-items:center;gap:8px;background:rgba(158,47,44,.15);border:1px solid var(--red-soft);color:#e9b7b3;font-size:13.5px;padding:7px 14px;border-radius:999px;margin-top:18px}
+.dot{width:8px;height:8px;border-radius:50%;background:#e0524d;box-shadow:0 0 0 0 rgba(224,82,77,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,82,77,.6)}70%{box-shadow:0 0 0 8px rgba(224,82,77,0)}100%{box-shadow:0 0 0 0 rgba(224,82,77,0)}}
+form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px;box-shadow:var(--shadow)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:520px){.f-row{grid-template-columns:1fr}}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:14px;font-weight:500;color:var(--ink);margin-bottom:6px}
+.field label .req{color:var(--red)}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-family:inherit;font-size:15px;background:var(--cream);color:var(--text);transition:.2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);background:#fff;box-shadow:0 0 0 3px rgba(200,162,74,.15)}
+.field textarea{resize:vertical;min-height:84px}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--text-soft)}
+.chk input{width:auto;margin-top:3px}
+.chk a{color:var(--red);text-decoration:underline}
+.form-note{font-size:12px;color:#b98b2a;margin-top:6px}
+.thanks{display:none;text-align:center;padding:40px 20px}
+.thanks .big{font-size:40px;color:var(--gold);margin-bottom:10px}
+.thanks h3{color:var(--ink);font-size:22px;margin-bottom:8px}
+
+/* FAQ */
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{width:100%;text-align:left;background:none;border:none;padding:20px 6px;font-family:'Noto Sans Thai';font-weight:600;font-size:17px;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq-q .pm{color:var(--gold);font-size:22px;transition:.25s;flex-shrink:0}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--text-soft);font-size:15.5px}
+.faq-a p{padding:0 6px 22px}
+.faq-item.open .faq-a{max-height:340px}
+.faq-item.open .pm{transform:rotate(45deg)}
+
+/* footer */
+footer{background:var(--cream-2);color:var(--text-soft);padding:54px 0 30px;font-size:14px;border-top:1px solid var(--line)}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px;margin-bottom:30px}
+@media(max-width:720px){.foot-grid{grid-template-columns:1fr}}
+footer h4{color:var(--ink);font-family:'Noto Sans Thai';font-size:16px;margin-bottom:14px}
+footer a{display:block;color:var(--text-soft);margin-bottom:8px;transition:.2s}
+footer a:hover{color:var(--gold-deep)}
+.foot-bottom{border-top:1px solid var(--line);padding-top:20px;text-align:center;font-size:13px;color:var(--text-soft)}
+
+/* mobile sticky CTA */
+.mcta{position:fixed;bottom:0;left:0;right:0;z-index:60;background:rgba(249,244,236,.97);backdrop-filter:blur(8px);border-top:1px solid rgba(200,162,74,.4);padding:10px 16px;display:none;gap:12px;align-items:center;justify-content:space-between;box-shadow:0 -8px 24px -12px rgba(120,90,40,.3)}
+.mcta .p{color:var(--gold-deep);font-weight:600;font-size:15px}
+.mcta .p small{display:block;color:var(--text-soft);font-weight:400;font-size:12px}
+.mcta .btn{padding:12px 20px;font-size:15px}
+@media(max-width:860px){.mcta{display:flex}body{padding-bottom:70px}}
+
+/* ===== image slots ===== */
+.imgframe{position:relative;overflow:hidden;border-radius:16px;background:linear-gradient(150deg,var(--sand),var(--cream));border:1px solid var(--line)}
+.imgframe>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}
+.imgframe>img.hide{display:none}
+.imgph{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:16px}
+.imgph .ic{font-size:30px;opacity:.85}
+.imgph b{font-size:13.5px;color:#8a6d33}
+.imgph small{font-size:11.5px;color:#a88f5f}
+.report-gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:6px 0 10px}
+@media(max-width:900px){.report-gallery{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.report-gallery{grid-template-columns:repeat(2,1fr)}}
+.shot-gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;max-width:940px;margin:0 auto 30px}
+.shot-gallery>.imgframe{flex:0 0 280px;max-width:44%;cursor:zoom-in;box-shadow:var(--shadow);transition:transform .22s,box-shadow .22s}
+.shot-gallery>.imgframe:hover{transform:translateY(-5px) scale(1.02)}
+@media(max-width:560px){.shot-gallery>.imgframe{flex-basis:150px}}
+/* lightbox */
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(30,18,10,.88);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:24px;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:min(94vw,540px);max-height:92vh;border-radius:14px;box-shadow:0 30px 90px rgba(0,0,0,.55)}
+.lightbox .x{position:absolute;top:18px;right:24px;color:#fff;font-size:34px;line-height:1;opacity:.85}
+
+/* ===== stats band (count-up) ===== */
+.stats{background:linear-gradient(160deg,var(--ink),#241610);color:var(--cream)}
+.stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;text-align:center}
+@media(max-width:640px){.stats .wrap{grid-template-columns:1fr;gap:30px}}
+.stat-b .n{font-size:46px;color:var(--gold);font-weight:700;line-height:1}
+.stat-b .l{font-size:14px;color:#c9bda6;margin-top:10px}
+
+/* ===== scroll progress bar ===== */
+.progressbar{position:fixed;top:0;left:0;right:0;height:3px;z-index:100;background:transparent;pointer-events:none}
+.progressbar-fill{height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--red))}
+
+/* ===== reveal on scroll ===== */
+body.anim .reveal{opacity:0;transform:translateY(26px)}
+body.anim .reveal.in{opacity:1;transform:none;transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+
+/* ===== CTA soft pulse ===== */
+@keyframes ctaPulse{0%,88%,100%{box-shadow:0 10px 24px -10px rgba(200,162,74,.8)}94%{box-shadow:0 0 0 7px rgba(200,162,74,.28),0 10px 24px -10px rgba(200,162,74,.85)}}
+.pulse{animation:ctaPulse 9s ease-in-out infinite}
+
+/* ===== extra hover lifts ===== */
+.rev,.story-card,.step{transition:transform .22s,box-shadow .22s}
+.rev:hover,.story-card:hover,.step:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+</style>
+</head>
+<body>
+<div class="progressbar"><div class="progressbar-fill" id="pbar"></div></div>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="wrap nav">
+    <div class="logo"><span class="brand">BAZI</span><span class="by">by Arng</span></div>
+    <nav class="nav-links">
+      <a href="#about">ปาจื้อคืออะไร</a>
+      <a href="#why">ทำไมต้องดูกับคน</a>
+      <a href="#process">ขั้นตอน</a>
+      <a href="#works">ตัวอย่างผลงาน</a>
+      <a href="#products">สินค้าเสริมดวง</a>
+      <a href="#reviews">รีวิว</a>
+      <a href="#faq">FAQ</a>
+      <a href="#booking" class="btn btn-gold">จองคิวดูดวง</a>
+    </nav>
+    <button class="burger" onclick="document.querySelector('.nav-links').style.display='flex';document.querySelector('.nav-links').style.position='absolute';document.querySelector('.nav-links').style.top='66px';document.querySelector('.nav-links').style.right='16px';document.querySelector('.nav-links').style.flexDirection='column';document.querySelector('.nav-links').style.background='#f7f1e6';document.querySelector('.nav-links').style.border='1px solid #e7dcc2';document.querySelector('.nav-links').style.padding='18px';document.querySelector('.nav-links').style.borderRadius='14px';">☰</button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" style="padding-top:70px">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">WEALTH · CAREER · RELATIONSHIP</span>
+      <h1>ดวงของคุณ ไม่ใช่ดวงชะตา<br>แต่คือ <span class="hl">แผนที่ชีวิต</span></h1>
+      <p class="lead">ปาจื้อ (八字) ไม่ได้มาบอกว่าคุณจะรวยหรือจะซวย แต่ช่วยให้คุณรู้ว่า <b>ช่วงไหนควรบุก ช่วงไหนควรตั้งหลัก</b> เหมือนพยากรณ์อากาศของชีวิต ที่คำนวณจากวันเวลาเกิดของคุณ ไม่ใช่การเดา</p>
+      <div class="cta-row">
+        <a href="#booking" class="btn btn-gold pulse">จองคิวดูดวงปาจื้อ →</a>
+        <a href="#about" class="btn btn-ghost">ปาจื้อคืออะไร</a>
+      </div>
+      <div class="trust">
+        <span>✦ วิเคราะห์เจาะลึก <b>รายบุคคล</b></span>
+        <span>✦ ไม่ใช่ AI <b>ตีความโดยซินแส</b></span>
+        <span>✦ รับ <b>จำกัดต่อเดือน</b></span>
+      </div>
+    </div>
+    <div>
+      <div class="video-frame">
+        <div class="video-embed" id="ytBox">
+          <img class="ytthumb" src="https://img.youtube.com/vi/SKVfh2Ezl44/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/SKVfh2Ezl44/hqdefault.jpg'" alt="ทำไมคนสำเร็จ ต้องดูปาจื้อ" onclick="playYT()">
+          <button class="ytplay" aria-label="เล่นวิดีโอ" onclick="playYT()">▶</button>
+          <a class="ytlink" href="https://youtu.be/SKVfh2Ezl44" target="_blank" rel="noopener">ดูบน YouTube ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- strip -->
+<div class="strip">
+  <div class="wrap">
+    <span><b>四柱八字</b> สี่เสา แปดตัวอักษร</span>
+    <span><b>ธาตุทั้ง 5</b> ดิน น้ำ ไฟ ไม้ ทอง</span>
+    <span><b>หยิน–หยาง</b> กฎแห่งการเปลี่ยนแปลง</span>
+    <span><b>คำนวณ ไม่ใช่การเดา</b></span>
+  </div>
+</div>
+
+<!-- ===== ABOUT / WHAT IS BAZI ===== -->
+<section id="about">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">ปาจื้อคืออะไร</span>
+      <h2 class="sec-title">แปดตัวอักษร ที่บอกว่า<br>ธรรมชาติสร้างคุณมาแบบไหน</h2>
+      <p class="sec-sub" style="margin-bottom:18px">ปาจื้อ (八字) แปลว่า “แปดตัวอักษร” เป็นศาสตร์วิเคราะห์ดวงชะตาโบราณของจีนที่มีมากว่า 5,000 ปี โดยนำ <b>วัน เดือน ปี และเวลาเกิด</b> ของคุณ มาแปลงเป็นเสา 4 ต้น เสาละ 2 ตัวอักษร รวมเป็น 8 ตัว</p>
+      <ul class="checklist">
+        <li>รู้ว่าตอนเกิด คุณมีธาตุทั้ง 5 มากน้อยแค่ไหน และขาดธาตุอะไร</li>
+        <li>เห็นจุดแข็งที่ธรรมชาติให้มา และจุดที่ควรระมัดระวัง</li>
+        <li>ไม่ใช่การ “แก้ดวง” แต่คือการปรับใช้ชีวิตให้สอดคล้องกับพลังของตัวเอง</li>
+      </ul>
+    </div>
+    <div>
+      <div class="pillar-panel">
+        <div class="pillars">
+          <div class="pillar"><div class="zh">時</div><div class="en">เสาเวลา</div><small>Hour</small></div>
+          <div class="pillar"><div class="zh">日</div><div class="en">เสาวัน</div><small>Day · ตัวคุณ</small></div>
+          <div class="pillar"><div class="zh">月</div><div class="en">เสาเดือน</div><small>Month</small></div>
+          <div class="pillar"><div class="zh">年</div><div class="en">เสาปี</div><small>Year</small></div>
+        </div>
+        <p style="text-align:center;color:var(--text-soft);font-size:14px;margin-top:20px;line-height:1.6">四柱 “สี่เสา” · แต่ละเสามีราศีบน–ล่าง และซ่อนราศีแฝงไว้อีกชั้นหนึ่ง</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VALUE STACK ===== -->
+<section style="background:linear-gradient(180deg,var(--cream),var(--cream-2))">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:34px">
+      <span class="eyebrow">ดูแล้วได้อะไร</span>
+      <h2 class="sec-title">รายงานปาจื้อ 1 ฉบับ = ที่ปรึกษาชีวิตทั้งปี</h2>
+      <p class="sec-sub">ไม่ใช่แค่ “ทำนาย” แต่เป็นคู่มือปฏิบัติได้จริง ครอบคลุมทุกมิติของชีวิตคุณ</p>
+    </div>
+    <div class="value-cards">
+      <div class="v-card"><div class="v-chip">พื้นดวง</div><h4>ผัง 4 เสา + Day Master</h4><p>บอกว่าคุณเกิดมาเป็นธาตุอะไร บุคลิกที่แท้จริง วิธีคิดและตัดสินใจ และพลังพื้นฐานที่ติดตัวมาตั้งแต่เกิด</p></div>
+      <div class="v-card"><div class="v-chip">ดาวพิเศษ</div><h4>ดวงดาวในดวง (神煞)</h4><p>นำดาวต่าง ๆ มาอ่านประกอบ เช่น ดาวขุนนางอุปถัมภ์ ดาวปัญญา ดาวเสน่ห์ ดาวขโมยทรัพย์ ว่าเรื่องไหนเด่น เรื่องไหนต้องระวัง และเปิดเดือนไหน</p></div>
+      <div class="v-card"><div class="v-chip">ตำแหน่งพลัง</div><h4>ตำแหน่งพลังในแต่ละเสา (12 ChangSheng)</h4><p>พลังของคุณอยู่ช่วงเกิด รุ่งเรือง ถดถอย หรือสุสาน ในแต่ละเสา ใช้ไขปมดวงแข็งที่ burnout หรือดวงอ่อนที่มีพลังซ่อน</p></div>
+      <div class="v-card"><div class="v-chip">รอบ 10 ปี</div><h4>รอบโชค 10 ปี (Luck Pillar 大運)</h4><p>ตอนนี้คุณอยู่ในรอบ 10 ปีแบบไหน ยุคทองอยู่ช่วงอายุเท่าไหร่ และรอบถัดไปจะเปลี่ยนเป็นพลังแบบใด</p></div>
+      <div class="v-card"><div class="v-chip">ธาตุ</div><h4>สมดุลธาตุทั้ง 5</h4><p>ธาตุไหนมากเกิน ธาตุไหนขาด ธาตุที่ให้คุณและที่ควรเลี่ยง เพื่อรู้ว่าต้องเติมอะไรให้ชีวิตไหลลื่น</p></div>
+      <div class="v-card"><div class="v-chip">รายปี</div><h4>ภาพรวมปีนี้ + การชง (冲)</h4><p>ปีนี้อะไรจะถูกกระทบ ทั้งครอบครัว งาน คู่ครอง สุขภาพ และภาพรวมว่าควรบุกหรือตั้งหลัก</p></div>
+      <div class="v-card"><div class="v-chip">รายเดือน</div><h4>แนวทางรายเดือน 12 เดือน</h4><p>ตารางจังหวะทั้งปี เดือนไหนเหมาะเปิดโปรเจกต์หรือปิดดีล เดือนไหนควรเงียบและตั้งรับ</p></div>
+      <div class="v-card"><div class="v-chip">อาชีพ · เงิน</div><h4>อาชีพและการเงิน</h4><p>คุณเหมาะเป็นคนคิดหรือคนลงมือ จังหวะเปิดตัวและลงทุน และวิธีดึงทรัพย์ที่ซ่อนออกมาใช้</p></div>
+      <div class="v-card"><div class="v-chip">ความรัก</div><h4>ความรัก + ความเข้ากัน</h4><p>แนวโน้มความสัมพันธ์ ลักษณะคู่ที่เข้ากับดวง และทิศทางกับช่วงเวลาที่ส่งเสริม</p></div>
+      <div class="v-card"><div class="v-chip">สุขภาพ</div><h4>สุขภาพกายและใจ</h4><p>อวัยวะที่ต้องดูแลตามธาตุ และเดือนที่ต้องระวังเป็นพิเศษ ทั้งกายและใจ</p></div>
+      <div class="v-card"><div class="v-chip">เสริมธาตุ</div><h4>แนวทางเสริมธาตุครบชุด</h4><p>สี วัสดุ เครื่องประดับ หินคริสตัล ทิศ อาหาร น้ำหอม และของแต่งบ้าน ที่เติมธาตุที่ขาด</p></div>
+      <div class="v-card"><div class="v-chip">Daily</div><h4>Daily Practice + ถาม–ตอบ</h4><p>กิจวัตรประจำวันที่ปรับตามดวง และคำตอบสำหรับเรื่องที่คุณกังวลเป็นพิเศษ</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY / AI CAN'T ===== -->
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:10px">
+      <span class="eyebrow">ทำไมต้องดูกับคน</span>
+      <h2 class="sec-title">ขึ้นผังมันง่าย แต่ “ตีความ” คือของยาก</h2>
+      <p class="sec-sub">เว็บฟรีหรือ AI กดผัง 8 ตัวอักษรออกมาได้ใน 2 วินาที แต่การตีความให้แม่นและใช้ได้จริง เป็นคนละเรื่องกัน หัวใจอยู่ที่การ “ให้น้ำหนัก” แต่ละธาตุตามตำแหน่ง ฤดูเกิด และความแรง ซึ่ง AI ยังทำได้ไม่ 100%</p>
+    </div>
+    <div class="compare">
+      <div class="comp free">
+        <h3>⚙️ เว็บฟรี / AI</h3>
+        <ul>
+          <li>ได้แค่ผังดิบและคำอธิบายแบบแพตเทิร์นกว้าง ๆ</li>
+          <li>ให้ค่าทุกธาตุเท่ากัน ไม่รู้ว่าธาตุไหนสำคัญกว่าในดวงนี้</li>
+          <li>อ่านธาตุทีละตัว ไม่เห็นปฏิสัมพันธ์ที่ส่งผลกันเป็นชั้น ๆ</li>
+          <li>ไม่รู้บริบทชีวิตจริงของคุณ — อาชีพ เป้าหมาย จังหวะที่กำลังเจอ</li>
+          <li>บอกไม่ได้ว่า “คุณคนนี้ ปีนี้ ควรทำอะไร”</li>
+        </ul>
+      </div>
+      <div class="comp pro">
+        <h3>🀄 ตีความโดยซินแส</h3>
+        <ul>
+          <li>อ่านความสัมพันธ์ของธาตุทั้งผัง + ดวงรายปีที่เปลี่ยนทุกปี</li>
+          <li>ชั่งน้ำหนักแต่ละธาตุตามตำแหน่ง ฤดู และความแรง (สิ่งที่ AI ยังทำไม่ได้ 100%)</li>
+          <li>ปรับให้เข้ากับชีวิตจริงของคุณโดยเฉพาะ</li>
+          <li>แปลงเป็นคำแนะนำที่ลงมือทำได้ พร้อมจังหวะเวลา</li>
+          <li>ประสบการณ์จากการอ่านดวงมานับพัน ไม่ใช่สูตรกดปุ่ม</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section id="process">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:44px">
+      <span class="eyebrow">ขั้นตอนง่าย ๆ</span>
+      <h2 class="sec-title">ดูดวงปาจื้อใน 3 สเต็ป</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>จองคิว</h3><p>กรอกฟอร์มด้านล่างเพื่อจองคิว เลือกแพ็กเกจที่ต้องการ ทีมงานจะติดต่อยืนยันคิวและการชำระเงิน</p></div>
+      <div class="step"><h3>ส่งวันเวลาเกิด</h3><p>ส่งวัน เดือน ปี และเวลาเกิด (ถ้าทราบ) พร้อมเรื่องที่อยากโฟกัสเป็นพิเศษ เพื่อให้ซินแสวิเคราะห์เจาะลึก</p></div>
+      <div class="step"><h3>รับรายงาน + นัดคุย</h3><p>รับรายงานปาจื้อฉบับเต็มของคุณ พร้อมนัดพูดคุยเพื่ออธิบายและตอบคำถามแบบเจาะลึกรายบุคคล</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO / SAMPLE WORK ===== -->
+<section id="works" class="reader">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:22px">
+      <span class="eyebrow">ตัวอย่างผลงาน</span>
+      <h2 class="sec-title">รายงานจริง ที่ลงลึกระดับนี้</h2>
+      <p class="sec-sub">รายงานปาจื้อแต่ละฉบับคำนวณเฉพาะบุคคลและลงลึกหลายมิติ ตั้งแต่การเงิน ธุรกิจ ความรัก สุขภาพ ไปจนถึงสี อาหาร ทิศ และจังหวะเวลารายเดือน นี่คือตัวอย่างแนวการวิเคราะห์จากงานจริง (ปิดข้อมูลส่วนตัวทั้งหมด) เพื่อให้เห็นภาพว่ารายงานของคุณจะละเอียดแค่ไหน</p>
+    </div>
+    <div class="disclosure">🔒 <span><b>เคารพความเป็นส่วนตัว:</b> ทุกตัวอย่างปิดบังชื่อ วันเกิด อาชีพเฉพาะ และข้อมูลระบุตัวตนของลูกค้าทั้งหมด เผยแพร่เฉพาะ “แนวการวิเคราะห์” เพื่อให้เห็นความละเอียดของงานเท่านั้น</span></div>
+
+    <div class="story">
+      <div class="story-card">
+        <span class="st-tag">เคสความสัมพันธ์</span>
+        <h3>“สามีจะกลับมาเจ้าชู้อีกไหม?” — สิ่งที่ดวงมองเห็น</h3>
+        <p>ลูกค้าท่านหนึ่งมาปรึกษาเรื่องชีวิตคู่ เล่าว่าสามีเคยมีเรื่องนอกใจ ช่วงหลังเงียบไปแล้ว แต่ในใจยังไม่วางใจ อยากรู้ว่ามันจะกลับมาอีกไหม พอเปิดพื้นดวงของสามีดู เราเห็นชัดว่า “ดาวเสน่ห์ดอกไม้ (桃花)” อยู่ในตำแหน่งที่แรงและฝังอยู่ในพื้นดวง ไม่ใช่แค่ผ่านมาชั่วคราว นั่นแปลว่าเสน่ห์และแรงดึงดูดเพศตรงข้ามเป็น pattern ที่ติดตัว ไม่ใช่เรื่องบังเอิญครั้งเดียวจบ</p>
+        <p>สิ่งที่ลูกค้าไม่เคยรู้คือ ช่วงที่สามี “เงียบหาย” ไม่ได้แปลว่านิสัยเปลี่ยนหรือเลิกแล้ว แต่เป็นเพราะบางปีมีดาวที่ทำให้เขา “ระวังตัวมากขึ้น” กลัวโดนจับได้ พอถึงปีที่ดาวเสน่ห์กลับมาเปิดแรงโดยไม่มีดาวคอยคุม พฤติกรรมเดิมก็มีแนวโน้มกลับมา เรากางปฏิทินให้เห็นเลยว่าปีและเดือนไหนที่ควรเฝ้าระวังเป็นพิเศษ (ปาจื้อบอก “แนวโน้ม” ไม่ใช่ “คำพิพากษา” — คนเราเลือกเปลี่ยนได้เสมอ)</p>
+        <div class="climax">💡 จุดที่ทำให้ลูกค้าถึงกับน้ำตาไหล: <b>“มันไม่ใช่เพราะเราไม่ดีพอ มันคือพื้นดวงและจังหวะของดาว”</b> — ปาจื้อไม่ได้ตัดสินใจแทนว่าจะอยู่หรือไป แต่ทำให้เธอเห็นความจริงของ pattern แล้วเลือกทางเดินบนข้อมูล ไม่ใช่บนความหวังลม ๆ แล้ง ๆ</div>
+      </div>
+
+      <div class="story-card">
+        <span class="st-tag">เคสนักธุรกิจ</span>
+        <h3>เดือนไหน “ห้ามลงทุน” เดือนไหนต้อง “ออกไปพบคน”</h3>
+        <p>เจ้าของธุรกิจท่านหนึ่งกำลังจะทุ่มงบก้อนใหญ่ขยายกิจการ พอเปิดดวงรายปีคู่กับรายเดือน เราเห็นว่าต้นปีมี “ดาวขโมยทรัพย์” และ “ดาวเสียหาย” เปิดพร้อมกันถึง 2 ช่วง เราจึงเตือนตรง ๆ ว่า <b>ห้ามลงทุนหรือเซ็นสัญญาใหม่ในสองเดือนนั้นเด็ดขาด</b> เพราะเป็นจังหวะที่ดวงพา “คนมาเสนอโอกาสที่ดูดีแต่มีกับดัก” พลาดทีเดียวอาจเสียเงินก้อนที่ทำงานหลายเดือนกว่าจะหาคืนได้</p>
+        <p>ในทางกลับกัน มีบางเดือนที่ “ดาวขุนนางอุปถัมภ์ / ดาวที่ปรึกษา” เปิด เราแนะนำให้เขา <b>ออกไปพบปะผู้คน เข้าสังคม ขยายคอนเนกชันให้มากที่สุด</b> เพราะเป็นช่วงที่ผู้ใหญ่และพันธมิตรจะเข้ามาหนุน ดีลดี ๆ และโอกาสใหญ่ ๆ มักเดินเข้ามาทางคนในช่วงเวลานี้</p>
+        <div class="climax">💡 ผลลัพธ์: เขาเลื่อนการลงทุนออกจากเดือนอันตราย แล้วเอาเวลาไปโฟกัสสร้างคอนเนกชันในเดือนที่ดวงเปิดทาง เปลี่ยนจาก “ลงมือตามอารมณ์” เป็น “ลงมือถูกจังหวะ” — เงินเท่ากัน แต่ผลลัพธ์คนละเรื่อง</div>
+      </div>
+
+      <div class="story-card">
+        <span class="st-tag">เคสมนุษย์เงินเดือน</span>
+        <h3>ช่วงไหน “ห้ามชนเจ้านาย” ช่วงไหน “ห้ามลาออก”</h3>
+        <p>พนักงานประจำท่านหนึ่งอึดอัดกับงานจนคิดจะลาออกแบบหุนหัน พอเปิดดวงดูจังหวะทั้งปี เราเห็นว่ามีเดือนหนึ่งที่ “ดาวซึ่งทำให้ขัดแย้งกับผู้มีอำนาจ/เจ้านาย” เปิดแรง จึงเตือนว่า <b>อย่าเพิ่งปะทะ อย่าเพิ่งยื่นใบลาในช่วงนี้</b> เพราะจะจบไม่สวยและเสียเครดิตที่สะสมมาทั้งหมด</p>
+        <p>อีกเดือนหนึ่งเป็นช่วง <b>“ห้ามตัดสินใจเรื่องใหญ่”</b> เพราะ “ดาวพเนจร” เปิด พลัง “อยากเริ่มใหม่” จะหลอกให้ทิ้งของดีไปคว้าของที่ดูใหม่กว่า และเราชี้ให้เห็นหน้าต่างเดือนที่ “เหมาะกับการเปลี่ยนงานหรือเจรจาต่อรองจริง ๆ” เพราะเป็นช่วงที่ดวงหนุนเรื่องโอกาสใหม่และการพูดคุยเจรจา</p>
+        <div class="climax">💡 ผลลัพธ์: เขาไม่ลาออกตอนกำลังโมโห แต่รอจังหวะที่ดวงเปิดทาง สุดท้ายได้งานใหม่ที่ดีกว่าเดิมทั้งเงินและตำแหน่ง ต่างกันแค่ “รออีก 3 เดือนให้ถูกจังหวะ” เท่านั้น</div>
+      </div>
+    </div>
+
+    <div class="works-sub">มิติอื่น ๆ ที่รายงานครอบคลุม</div>
+    <div class="grid g3">
+      <div class="card">
+        <div class="ic">💰</div>
+        <h3>การเงินและการปลดหนี้</h3>
+        <p>ดูว่าเงินคุณรั่วตรงไหน ปีไหนคือช่วงหาเงินได้ดีที่สุด และเดือนไหนที่ควรกำเงินไว้แน่น ๆ อย่าเพิ่งลงทุน</p>
+      </div>
+      <div class="card">
+        <div class="ic">🔥</div>
+        <h3>การงานและการขยายกิจการ</h3>
+        <p>จังหวะไหนควรบุก จังหวะไหนควรชะลอ และวิธีจัดคนมาช่วยแบ่งงาน ไม่ให้แบกเองจนหมดไฟ</p>
+      </div>
+      <div class="card">
+        <div class="ic">🗓️</div>
+        <h3>จังหวะเวลาทั้งปี</h3>
+        <p>เห็นทั้งปีในหน้าเดียว ว่าเดือนไหนเหมาะเปิดโปรเจกต์หรือปิดดีล และเดือนไหนควรอยู่เงียบ ๆ ก่อน</p>
+      </div>
+      <div class="card">
+        <div class="ic">🌱</div>
+        <h3>ทิศทางอาชีพ</h3>
+        <p>คุณเหมาะเติบโตในสนามแบบไหน และควรมีคนหรือทีมแบบไหนคอยหนุน ให้ไปได้ไกลกว่าการฝืนลุยคนเดียว</p>
+      </div>
+      <div class="card">
+        <div class="ic">💗</div>
+        <h3>ความรักและความสัมพันธ์</h3>
+        <p>แนวโน้มความสัมพันธ์ ลักษณะคนที่เข้ากับคุณ และช่วงเวลาที่ความรักไหลลื่นเป็นพิเศษ</p>
+      </div>
+      <div class="card">
+        <div class="ic">🩺</div>
+        <h3>สุขภาพกายและใจ</h3>
+        <p>จุดในร่างกายที่ควรดูแลตามธาตุของคุณ และเดือนที่ควรระวังหรือเลี่ยงการทำหัตถการ</p>
+      </div>
+    </div>
+    <div class="works-sub" style="margin-top:36px">ตัวอย่างหน้ารายงานจริง</div>
+    <div class="report-gallery">
+      <div class="imgframe" style="aspect-ratio:3/4"><img src="img/report1.jpg" alt="หน้ารายงาน 1" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">📄</span><b>หน้ารายงาน</b><small>img/report1.jpg (เบลอข้อมูลส่วนตัว)</small></div></div>
+      <div class="imgframe" style="aspect-ratio:3/4"><img src="img/report2.jpg" alt="หน้ารายงาน 2" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">📄</span><b>หน้ารายงาน</b><small>img/report2.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:3/4"><img src="img/report3.jpg" alt="หน้ารายงาน 3" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">📄</span><b>หน้ารายงาน</b><small>img/report3.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:3/4"><img src="img/report4.jpg" alt="หน้ารายงาน 4" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">📄</span><b>หน้ารายงาน</b><small>img/report4.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:3/4"><img src="img/report5.jpg" alt="หน้ารายงาน 5" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">📄</span><b>หน้ารายงาน</b><small>img/report5.jpg</small></div></div>
+    </div>
+    <p style="text-align:center;margin-top:22px;color:var(--text-soft);font-size:14px">รายงานฉบับเต็มของคุณจะเจาะลึกและเฉพาะเจาะจงกว่านี้มาก ตามดวงของคุณเอง</p>
+  </div>
+</section>
+
+<!-- ===== PRODUCTS / AFFILIATE ===== -->
+<section id="products">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:26px">
+      <span class="eyebrow">สินค้าเสริมดวงตามธาตุ</span>
+      <h2 class="sec-title">เติมธาตุที่ขาด ด้วยของที่ใช่</h2>
+      <p class="sec-sub">เครื่องประดับและของมงคลคัดตามธาตุทั้ง 5 เมื่อรู้ธาตุที่ให้คุณจากรายงานปาจื้อแล้ว เลือกเสริมได้ตรงจุด</p>
+    </div>
+    <div class="disclosure">⚠️ <span><b>หมายเหตุความโปร่งใส:</b> ลิงก์สินค้าด้านล่างเป็นลิงก์พันธมิตร (affiliate) หากคุณซื้อผ่านลิงก์ เราอาจได้รับค่าตอบแทนเล็กน้อย โดยคุณไม่ต้องจ่ายเพิ่ม สินค้าเสริมดวงเป็นของประกอบความเชื่อ ไม่ได้รับประกันผลลัพธ์</span></div>
+    <div class="grid g4">
+      <div class="prod"><div class="img"><span class="el-badge">ไม้</span>รูปสินค้า</div><div class="body"><h3>【 สร้อยหิน/ของมงคล ธาตุไม้ 】</h3><div class="price">฿ ___</div><p>เสริมธาตุไม้ เหมาะกับผู้ที่ดวงขาดไม้ เน้นการเติบโต</p><a href="#" class="btn btn-red" target="_blank" rel="nofollow sponsored">ดูสินค้า ↗</a></div></div>
+      <div class="prod"><div class="img"><span class="el-badge">ไฟ</span>รูปสินค้า</div><div class="body"><h3>【 ของมงคล ธาตุไฟ 】</h3><div class="price">฿ ___</div><p>เสริมธาตุไฟ เพิ่มชื่อเสียง ออร่า ความโดดเด่น</p><a href="#" class="btn btn-red" target="_blank" rel="nofollow sponsored">ดูสินค้า ↗</a></div></div>
+      <div class="prod"><div class="img"><span class="el-badge">ดิน</span>รูปสินค้า</div><div class="body"><h3>【 ของมงคล ธาตุดิน 】</h3><div class="price">฿ ___</div><p>เสริมธาตุดิน เพิ่มความมั่นคง ฐานราก ความน่าเชื่อถือ</p><a href="#" class="btn btn-red" target="_blank" rel="nofollow sponsored">ดูสินค้า ↗</a></div></div>
+      <div class="prod"><div class="img"><span class="el-badge">ทอง</span>รูปสินค้า</div><div class="body"><h3>【 ของมงคล ธาตุทอง 】</h3><div class="price">฿ ___</div><p>เสริมธาตุทอง เรื่องการเงิน การตัดสินใจ ความเฉียบคม</p><a href="#" class="btn btn-red" target="_blank" rel="nofollow sponsored">ดูสินค้า ↗</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS (count-up · แก้ตัวเลขได้) ===== -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stat-b"><div class="n" data-count="1000" data-suffix="+">1,000+</div><div class="l">ดวงที่วิเคราะห์</div></div>
+    <div class="stat-b"><div class="n" data-count="4.9" data-decimals="1">4.9</div><div class="l">คะแนนรีวิวเฉลี่ย ★</div></div>
+    <div class="stat-b"><div class="n" data-count="12" data-suffix="+">12+</div><div class="l">มิติที่รายงานครอบคลุม</div></div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section id="reviews" class="reviews">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:38px">
+      <span class="eyebrow">เสียงจากลูกค้า</span>
+      <h2 class="sec-title">พวกเขาวางแผนชีวิตด้วยปาจื้อ</h2>
+      <p class="sec-sub" style="color:var(--text-soft)">ข้อความจริงจากลูกค้า (ปิดชื่อเพื่อความเป็นส่วนตัว)</p>
+    </div>
+    <div class="shot-gallery">
+      <div class="imgframe" style="aspect-ratio:9/16"><img src="img/shot1.jpg" alt="แคปแชตรีวิว 1" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">💬</span><b>แคปแชตรีวิวจริง</b><small>img/shot1.jpg (ปิดชื่อ)</small></div></div>
+      <div class="imgframe" style="aspect-ratio:9/16"><img src="img/shot2.jpg" alt="แคปแชตรีวิว 2" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">💬</span><b>แคปแชตรีวิวจริง</b><small>img/shot2.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:9/16"><img src="img/shot3.jpg" alt="แคปแชตรีวิว 3" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">💬</span><b>แคปแชตรีวิวจริง</b><small>img/shot3.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:9/16"><img src="img/shot4.jpg" alt="แคปแชตรีวิว 4" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">💬</span><b>แคปแชตรีวิวจริง</b><small>img/shot4.jpg</small></div></div>
+      <div class="imgframe" style="aspect-ratio:9/16"><img src="img/shot5.jpg" alt="แคปแชตรีวิว 5" onerror="this.classList.add('hide')"><div class="imgph"><span class="ic">💬</span><b>แคปแชตรีวิวจริง</b><small>img/shot5.jpg</small></div></div>
+    </div>
+    <div class="grid g3">
+      <div class="rev"><div class="stars">★★★★★</div><p>“ตรงมากกก มันคือตัวของเราเลย 😭”</p><div class="who"><div class="av">ร</div><div><b>ลูกค้าจริง</b><span>รีวิวเรื่องบุคลิก/พื้นดวง</span></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>“เขียนละเอียดดีมาก ๆ เป็น guidelines ในการดำเนินชีวิตแต่ละเดือนเลย จะได้ระวัง ๆ ไว้”</p><div class="who"><div class="av">ก</div><div><b>ลูกค้าจริง</b><span>รีวิวแนวทางรายเดือน</span></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>“แม่นมาก! กำลังหาคนออกแบบบ้านอยู่พอดี ดวงขึ้นเป๊ะเลย”</p><div class="who"><div class="av">อ</div><div><b>ลูกค้าจริง</b><span>รีวิวเรื่องจังหวะชีวิต</span></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>“ปีนี้เตือนเรื่องหัวใจไว้ พอไปตรวจร่างกายเจอว่าหัวใจเต้นผิดปกติจริง เลยได้รีบดูแลตัวเองทัน”</p><div class="who"><div class="av">น</div><div><b>ลูกค้าจริง</b><span>รีวิวเรื่องสุขภาพ</span></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>“เคยดูดวงจีนที่อื่นที่เน้นขายจิวเวอรี่ แต่ไม่ทำรายละเอียดดวงให้ มาเจอที่นี่ทำละเอียดครบ โชคดีมาก”</p><div class="who"><div class="av">พ</div><div><b>ลูกค้าจริง</b><span>เทียบกับที่เคยดูมา</span></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>“ดูแบบเชี่ยวชาญจริง ลงลึกกว่าที่เคยเจอ ประทับใจมาก”</p><div class="who"><div class="av">ต</div><div><b>ลูกค้าจริง</b><span>รีวิวภาพรวม</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BOOKING ===== -->
+<section id="booking" class="booking">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:40px">
+      <span class="eyebrow">จองคิวดูดวง</span>
+      <h2 class="sec-title">เริ่มต้นวางแผนชีวิตของคุณ</h2>
+    </div>
+    <div class="book-grid">
+      <div class="book-info">
+        <div class="price-box">
+          <div style="color:#c3b8a5;font-size:15px;margin-bottom:6px">แพ็กเกจดูดวงปาจื้อรายปี</div>
+          <div class="amt">฿4,500 <small>/ ท่าน</small></div>
+          <div class="per">เฉลี่ยตกวันละไม่ถึง 13 บาท ถูกกว่ากาแฟแก้วนึง</div>
+          <ul>
+            <li>รายงานปาจื้อฉบับเต็มรายบุคคล</li>
+            <li>แนวทางรายเดือน 12 เดือน</li>
+            <li>คำแนะนำการงาน เงิน ความรัก สุขภาพ</li>
+            <li>แนวทางเสริมธาตุเฉพาะดวงคุณ</li>
+            <li>นัดพูดคุยตอบคำถามเจาะลึก</li>
+          </ul>
+          <div class="scarcity"><span class="dot"></span> รับจำนวนจำกัดต่อเดือน เพราะวิเคราะห์ละเอียดทุกดวง</div>
+        </div>
+        <div class="imgframe" style="aspect-ratio:4/3;margin-top:16px">
+          <img src="img/report-desk.jpg" alt="ตัวอย่างรายงานที่คุณจะได้รับ" onerror="this.classList.add('hide')">
+          <div class="imgph"><span class="ic">📓</span><b>ภาพรายงานที่คุณจะได้รับ</b><small>วางไฟล์ img/report-desk.jpg</small></div>
+        </div>
+      </div>
+
+      <div class="book-cta">
+        <h3>จองคิวง่าย ๆ แค่ทักแชท</h3>
+        <p>ไม่ต้องกรอกฟอร์มยาว ๆ ทักเข้ามาที่เพจได้เลย แล้วแจ้ง 3 อย่างนี้ เดี๋ยวทีมงานยืนยันคิวและรายละเอียดให้ค่ะ</p>
+        <ol class="book-steps">
+          <li>ทักแชทเพจ แล้วบอกว่าสนใจจองคิวดูปาจื้อ</li>
+          <li>ส่งวัน–เดือน–ปี และเวลาเกิด (ถ้าทราบ)</li>
+          <li>บอกเรื่องที่อยากโฟกัส เช่น การเงิน ธุรกิจ ความรัก สุขภาพ</li>
+        </ol>
+        <a href="https://m.me/wearyoure99" target="_blank" rel="noopener" class="btn btn-gold big pulse">💬 ทักแชทเพจเพื่อจองคิว →</a>
+        <a href="https://facebook.com/wearyoure99" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:12px;color:var(--gold-deep);font-size:14px">หรือเปิดหน้าเพจ Facebook: wearyoure99</a>
+        <p style="font-size:12.5px;color:var(--text-soft);margin-top:18px;text-align:center">🔒 ข้อมูลวันเวลาเกิดใช้เพื่อการวิเคราะห์ปาจื้อเท่านั้น</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="wrap" style="max-width:820px">
+    <div class="center" style="margin-bottom:30px">
+      <span class="eyebrow">คำถามที่พบบ่อย</span>
+      <h2 class="sec-title">FAQ</h2>
+    </div>
+    <div class="faq-item"><button class="faq-q">ปาจื้อต่างจากดูดวงทั่วไปยังไง? <span class="pm">+</span></button><div class="faq-a"><p>ปาจื้อไม่ใช่การทำนายว่าจะเกิดอะไร แต่เป็นการคำนวณสมดุลธาตุจากวันเวลาเกิด เพื่อให้รู้จุดแข็ง จุดที่ต้องระวัง และจังหวะเวลาที่เหมาะกับการลงมือ เป็นเครื่องมือวางแผนชีวิต ไม่ใช่การเดา</p></div></div>
+    <div class="faq-item"><button class="faq-q">ในเมื่อขึ้นดวงฟรีในเว็บหรือถาม AI ก็ได้ ทำไมต้องจ่าย? <span class="pm">+</span></button><div class="faq-a"><p>การ “ขึ้นผัง” เครื่องทำได้ แต่การ “ตีความ” ต้องอ่านปฏิสัมพันธ์ของธาตุทั้งผังที่ส่งผลกันเป็นชั้น ๆ บวกกับดวงรายปีที่เปลี่ยนทุกปี แล้วปรับให้เข้ากับชีวิตจริงของคุณ AI ตอบได้แค่แพตเทิร์นกว้าง ๆ บอกไม่ได้ว่า “คุณคนนี้ ปีนี้ ควรทำอะไร” — นั่นคือสิ่งที่ต้องใช้ประสบการณ์ของซินแส</p></div></div>
+    <div class="faq-item"><button class="faq-q">ถ้าไม่รู้เวลาเกิดที่แน่นอน ดูได้ไหม? <span class="pm">+</span></button><div class="faq-a"><p>ได้ เวลาเกิดช่วยให้ผังละเอียดขึ้น แต่ถ้าไม่ทราบ ซินแสจะใช้วิธีประเมินจากเหตุการณ์สำคัญในชีวิตเพื่อเทียบเคียง แจ้งได้เลยตอนจองคิว</p></div></div>
+    <div class="faq-item"><button class="faq-q">ใช้เวลากี่วันถึงได้รายงาน? <span class="pm">+</span></button><div class="faq-a"><p>【 ระบุระยะเวลาจริง เช่น ภายใน 5–7 วันทำการหลังยืนยันข้อมูลและการชำระเงิน 】</p></div></div>
+    <div class="faq-item"><button class="faq-q">ข้อมูลวันเกิดของฉันปลอดภัยไหม? <span class="pm">+</span></button><div class="faq-a"><p>ข้อมูลวันเวลาเกิดถือเป็นข้อมูลส่วนบุคคล เราเก็บและใช้เพื่อการวิเคราะห์ปาจื้อเท่านั้น ตามนโยบายความเป็นส่วนตัว (PDPA) และจะไม่เปิดเผยต่อบุคคลที่สาม</p></div></div>
+    <div class="faq-item"><button class="faq-q">สินค้าเสริมดวงจำเป็นต้องซื้อไหม? <span class="pm">+</span></button><div class="faq-a"><p>ไม่จำเป็น เป็นทางเลือกเสริมสำหรับผู้ที่อยากเติมธาตุที่ขาด รายงานปาจื้อให้แนวทางครบอยู่แล้ว สินค้าเป็นของประกอบความเชื่อ ไม่ได้รับประกันผลลัพธ์</p></div></div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:12px"><span class="brand">BAZI</span><span class="by">by Arng</span></div>
+        <p style="max-width:340px">ศาสตร์ดูดวงจีนโบราณเพื่อการวางแผนชีวิตและธุรกิจ ไม่งมงาย เน้นใช้ได้จริง</p>
+      </div>
+      <div>
+        <h4>เมนู</h4>
+        <a href="#about">ปาจื้อคืออะไร</a>
+        <a href="#process">ขั้นตอนการดู</a>
+        <a href="#products">สินค้าเสริมดวง</a>
+        <a href="#booking">จองคิว</a>
+      </div>
+      <div>
+        <h4>ติดต่อ</h4>
+        <a href="https://m.me/wearyoure99" target="_blank" rel="noopener">💬 ทักแชทเพจ (Messenger)</a>
+        <a href="https://facebook.com/wearyoure99" target="_blank" rel="noopener">Facebook: wearyoure99</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2569 ปาจื้อ 八字 · สงวนลิขสิทธิ์ · ลิงก์สินค้าบางส่วนเป็นลิงก์พันธมิตร (affiliate)</div>
+  </div>
+</footer>
+
+<!-- lightbox สำหรับซูมรูปรีวิว -->
+<div class="lightbox" id="lightbox"><span class="x">×</span><img id="lightbox-img" src="" alt="รีวิวจากลูกค้า"></div>
+
+<!-- mobile sticky CTA -->
+<div class="mcta">
+  <div class="p">฿4,500 <small>รับจำกัดต่อเดือน</small></div>
+  <a href="#booking" class="btn btn-gold pulse">จองคิว →</a>
+</div>
+
+<script>
+// เล่นวิดีโอเมื่อคลิกภาพปก (โหลดไว + เลี่ยง error ตอนยังไม่เล่น)
+function playYT(){
+  var box=document.getElementById('ytBox');
+  box.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/SKVfh2Ezl44?autoplay=1&rel=0" title="ทำไมคนสำเร็จ ต้องดูปาจื้อ" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+}
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(function(b){
+  b.addEventListener('click',function(){
+    var item=b.parentElement, open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open')});
+    if(!open) item.classList.add('open');
+  });
+});
+
+// ===== scroll progress bar =====
+var pbar=document.getElementById('pbar');
+window.addEventListener('scroll',function(){
+  var h=document.documentElement, s=h.scrollTop||document.body.scrollTop, max=h.scrollHeight-h.clientHeight;
+  pbar.style.width=(max>0?(s/max*100):0)+'%';
+},{passive:true});
+
+// ===== reveal on scroll =====
+document.body.classList.add('anim');
+var revEls=document.querySelectorAll('.card,.v-card,.story-card,.rev,.step,.prod,.comp,.pillar-panel,.book-cta,.price-box,.imgframe,.stat-b,.sec-title');
+revEls.forEach(function(el){el.classList.add('reveal')});
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  revEls.forEach(function(el){io.observe(el)});
+} else { revEls.forEach(function(el){el.classList.add('in')}); }
+
+// ===== count-up numbers =====
+function countUp(el){
+  var t=parseFloat(el.dataset.count), dec=parseInt(el.dataset.decimals||0), suf=el.dataset.suffix||'', dur=1400, st=null;
+  function fmt(v){ return (dec>0? v.toFixed(dec) : Math.round(v).toLocaleString('en-US')) + suf; }
+  function step(ts){ if(!st)st=ts; var p=Math.min((ts-st)/dur,1); el.textContent=fmt(t*(0.5-Math.cos(Math.PI*p)/2)); if(p<1)requestAnimationFrame(step); else el.textContent=fmt(t); }
+  el.textContent=fmt(0); requestAnimationFrame(step);
+}
+if('IntersectionObserver' in window){
+  var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){countUp(e.target);cio.unobserve(e.target);}})},{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){cio.observe(el)});
+}
+
+// ===== lightbox ซูมรูปรีวิว =====
+var lb=document.getElementById('lightbox'), lbimg=document.getElementById('lightbox-img');
+document.querySelectorAll('.shot-gallery img').forEach(function(im){
+  im.addEventListener('click',function(){ lbimg.src=im.src; lb.classList.add('open'); });
+});
+lb.addEventListener('click',function(){ lb.classList.remove('open'); });
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') lb.classList.remove('open'); });
+</script>
+</body>
+</html>
